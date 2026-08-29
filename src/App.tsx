@@ -53,7 +53,7 @@ function App() {
         placeholder="enter Email name or gender and get the results"
       />
 
-      <div className="px-3 border grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+      <div className="px-3 border grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
         {filtered.map((item: Item) => {
           return (
             <Result
